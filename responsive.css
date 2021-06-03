@@ -1,0 +1,302 @@
+@media screen and (max-width: 1500px) {
+   
+    .purchase>p {
+        padding-bottom: 5vmin;
+    }
+    header .nav-item:last-child {
+        padding-right: 5.5em;
+    }
+    header .navbar-brand {
+        padding-left: 5rem;
+    }
+    h1, .h1 {
+        font-size: 45px;
+    }
+    h1 span {
+        font-size: 20px;
+    }
+    .sectionOne {
+        padding: 11vmin 0;
+    }
+    .numbers .rect {
+        width: 10rem;
+        height: 8.5rem;
+    }
+    
+    .cover {
+        height: 50vmin;
+        background-position: -15rem -10rem;
+        background-size: 140%;
+        position: relative;
+    }
+    .numbers {
+        margin-top: -10vmin;
+    }
+  
+    .purchase>.h1 {
+        padding-top: 10vmin;
+    }
+    
+    footer {
+        padding: 8vmin 3.5vmin;
+    }
+    footer .h1{
+        font-size: 2.5vmin !important;
+    }
+    footer .column i + i {
+        padding-left: 8px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .sectionOne img {
+        width: 100%;
+    }
+    .purchase .cards .card {
+        width: 16.5rem;
+        margin: 1.5vmin;
+    }
+    .card .card-text {
+        padding: 1rem 2rem; 
+    }
+    .sectionFour .col-lg-4 {
+        flex: 0 0 49.333333%;
+        max-width: 49.333333%;
+    }
+    .sectionFour .col-lg-4:nth-child(2) {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+    body {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    h1, .h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 10px 0px;
+    }
+    
+    .sectionOne .row .col-md-6 .panel {
+        padding: 1vmin 2vmin 2vmin 2vmin;
+    }
+    .sectionOne .row .col-md-6 .panel .h1 {
+        padding: 0px;
+        font-size: 1.7em !important;
+    }
+  
+    header .navbar-brand {
+        padding-left: 0px;
+    }
+    footer .h1 {
+        font-size: 4vmin;
+    }
+    .numbers .rect {
+        width: 8rem;
+        height: 7.5rem;
+    }
+    .numbers .rect p{
+        font-size: 14px;
+    }
+    .numbers .rect .h1{
+        padding-bottom: 0;
+    }
+    .purchase .cards .card {
+        width: 15.5rem;
+        margin: 1.5vmin;
+    }
+    .sectionFour .team {
+        padding: 0vmin 2vmin 10vmin;
+    }
+    .card-body {
+        padding: 0.25rem;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    header .navbar-nav a:after {
+        left: 0px;
+    }
+    header .navbar-nav a:hover:before, header .navbar-nav .active a:before {
+        left: 0px;
+        width: 60px !important;
+    }
+
+    .navbar-toggler {
+        position: relative;
+    }
+    
+    .navbar-toggler .navbar-toggler-icon {
+        width: 30px;
+        height: 2px;
+        background: whitesmoke;
+        position: relative;
+    }
+    
+    .navbar-toggler .navbar-toggler-icon::before {
+        content: " ";
+        width: 30px;
+        position: absolute;
+        background: whitesmoke;
+        height: 2px;
+        top: 10px;
+        left: 0px;
+    }
+
+    .navbar-toggler .navbar-toggler-icon::after {
+        content: " ";
+        width: 30px;
+        position: absolute;
+        background: whitesmoke;
+        height: 2px;
+        bottom: 10px;
+        left: 0px;
+    }
+    
+    .navbar-collapse {
+        padding: 20px 30px;
+        background: var(--purplr-color);
+        margin-top: 10px;
+        z-index: 10;
+    }
+   
+}
+
+@media screen and (max-width:767px) {
+    header .row .col-md-5 img {
+        width: 50%;
+    }
+    header .row .col-md-5 {
+        padding: 0;
+    }
+    header .row .col-md-7 {
+        padding-bottom: 5vmin;
+    }
+    .sectionOne img {
+        width: 55%;
+    }
+    .sectionOne .row .col-md-6 .panel {
+        position: static;
+    }
+    .cover .content>.h1 {
+        font-size: 5vmin;
+    }
+    .sectionThree .col-md-6{
+        text-align: center !important;
+    }
+    .cover {
+        background-position: -12rem -6rem;
+    }
+    .numbers .rect {
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+    .numbers .rect p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .cards .title {
+        font-size: 20px;
+    }
+
+    .sectionFour .card {
+        width: 17em;
+    }
+    .button {
+        font-size: 13px;
+        margin: .5em 0.8em;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .numbers .rect {
+        height: 6rem;
+        flex: 0 0 35%;
+        margin: 0.5rem;
+    }
+    .sectionFour .col-lg-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .sectionOne .row .col-md-6 .panel h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .cover .content {
+        padding-top: 10vmin;
+    }
+    .numbers {
+        margin-top: -18vmin;
+    }
+    .sectionThree .desktop {
+        padding: 3vmin 6.5vmin;
+    }
+    .sectionFour .card {
+        width: 80%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+   
+    .numbers .rect {
+        height: 5.5rem;
+        padding: 5px 0px;
+
+    }
+    .cover {
+        background-position: -8rem -4rem;
+        height: 65vmin;
+    }
+    .sectionThree .col-md-12 > p {
+        padding: 0 1em;
+    }
+    footer {
+        padding: 15vmin 3.5vmin;
+    }
+    header .row .col-md-5 img {
+        width: 40%;
+    }
+    h1 span {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header .navbar-brand {
+        font-size: 1rem;
+    }
+    header .navbar-brand i{
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 35px;
+        margin: 8px 0px;
+    }
+    .cover {
+        background-position: -4rem -1rem;
+        height: 85vmin;
+    }
+    h1, .h1 {
+        font-size: 38px;
+    }
+}
+
+
+@media screen and (max-height: 800px) {
+    header .introText {
+        margin-top: 10px;
+    }
+    header .row .col-md-5 img {
+        display: none;
+    }
+}
